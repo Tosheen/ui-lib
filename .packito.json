@@ -1,0 +1,28 @@
+{
+  "remove": {
+    "dependencies": "*",
+    "devDependencies": "*",
+    "scripts": "*",
+    "private": true,
+    "files": true,
+    "type": true,
+    "esm": true,
+    "husky": true,
+    "volta": true,
+    "prettier": true,
+    "eslintConfig": true
+  },
+  "replace": {
+    "name": "@obscured/name",
+    "main": "obscured-src.umd.js",
+    "module": "obscured-src.es.js",
+    "typings": "src/index.d.ts",
+    "engines": {
+      "node": "14.17.0",
+      "npm": "7.12.1",
+      "yarn": ">=1.22.5"
+    }
+  },
+  "copy": ["README.md", "LICENSE"],
+  "dist": "./dist"
+}

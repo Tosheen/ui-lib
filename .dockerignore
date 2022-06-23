@@ -1,0 +1,5 @@
+.github
+.cache
+node_modules
+dist
+storybook-static
